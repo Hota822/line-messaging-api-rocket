@@ -5,4 +5,5 @@ authors = ["uma <blog3170@gmail.com>"]
 
 [dependencies]
 rocket = "0.3.12"
-line-messaging-api-rust = { path = "../line-messaging-api-rust"}
+# line-messaging-api-rust = { path = "../line-messaging-api-rust"}
+line-messaging-api-rust = "0.1.1"
