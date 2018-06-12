@@ -1,0 +1,8 @@
+[package]
+name = "line-messaging-api-rocket"
+version = "0.1.0"
+authors = ["uma <blog3170@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.12"
+line-messaging-api-rust = { path = "../line-messaging-api-rust"}
