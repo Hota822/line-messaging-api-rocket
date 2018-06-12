@@ -2,6 +2,10 @@ use rocket::Outcome;
 use rocket::Outcome::*;
 use rocket::request::{self, Request, FromRequest};
 use rocket::http::Status;
+use rocket::Data;
+use rocket::data::{self, FromData};
+
+use std::io::Read;
 
 pub struct Signature {
     pub key: String,
@@ -21,10 +25,7 @@ impl<'a, 'r> FromRequest<'a, 'r> for Signature {
     }
 }
 
-use rocket::Data;
 
-use std::io::Read;
-use rocket::data::{self, FromData};
 
 #[derive(Debug)]
 pub struct Body {
