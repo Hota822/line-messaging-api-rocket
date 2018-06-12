@@ -2,7 +2,9 @@
 name = "line-messaging-api-rocket"
 version = "0.1.1"
 authors = ["uma <blog3170@gmail.com>"]
-
+license = "MIT"
+description = "LINE Messaging API Wrapper for rocket"
+repository = "https://github.com/uma0317/line-messaging-api-rocket"
 [dependencies]
 rocket = "0.3.12"
 #line-messaging-api-rust = { path = "../line-messaging-api-rust"}
