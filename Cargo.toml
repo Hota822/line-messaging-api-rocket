@@ -1,11 +1,13 @@
 [package]
 name = "line-messaging-api-rocket"
-version = "0.1.1"
-authors = ["uma <blog3170@gmail.com>"]
+version = "0.1.2"
+authors = ["hota <hota8220@gmail.com>"]
 license = "MIT"
+edition = "2018"
 description = "LINE Messaging API Wrapper for rocket"
-repository = "https://github.com/uma0317/line-messaging-api-rocket"
+repository = "https://github.com/hota822/line-messaging-api-rocket"
+#  forked from "https://github.com/uma0317/line-messaging-api-rocket"
 [dependencies]
-rocket = "0.3.12"
-line-messaging-api-rust = { git = "https://github.com/uma0317/line-messaging-api-rust" }
+rocket = "0.4.5"
+# line-messaging-api-rust = { git = "https://github.com/hota822/line-messaging-api-rust" }
 #line-messaging-api-rust = { path = "../line-messaging-api-rust"}

@@ -1,9 +1,7 @@
-use rocket::Outcome;
-use rocket::Outcome::*;
+use rocket::{ Outcome, Outcome::*, Data,};
 use rocket::request::{self, Request, FromRequest};
 use rocket::http::Status;
-use rocket::Data;
-use rocket::data::{self, FromData};
+use rocket::data::{self, FromDataSimple};
 
 use std::io::Read;
 
@@ -38,7 +36,7 @@ impl Body {
     }
 }
 
-impl FromData for Body {
+impl FromDataSimple for Body {
     type Error = String;
 
     fn from_data(_: &Request, data: Data) -> data::Outcome<Self, String> {
