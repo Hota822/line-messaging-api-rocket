@@ -9,5 +9,5 @@ repository = "https://github.com/hota822/line-messaging-api-rocket"
 #  forked from "https://github.com/uma0317/line-messaging-api-rocket"
 [dependencies]
 rocket = "0.4.5"
-# line-messaging-api-rust = { git = "https://github.com/hota822/line-messaging-api-rust" }
+line-messaging-api-rust = { git = "https://github.com/hota822/line-messaging-api-rust" }
 #line-messaging-api-rust = { path = "../line-messaging-api-rust"}
