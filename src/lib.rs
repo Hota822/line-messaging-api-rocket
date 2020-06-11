@@ -1,5 +1,5 @@
-extern crate rocket;
-extern crate line_messaging_api_rust as line;
+pub extern crate rocket;
+pub extern crate line_messaging_api_rust as line;
 
 pub use line::*;
 
